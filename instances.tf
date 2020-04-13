@@ -33,6 +33,7 @@ root_block_device {
     Name     = "${var.server_base_name}-ao-${count.index +1 }"
     App = "AO"
     Role = "AO-cluster-node"
+    Owner = var.owner_name
   }
 
   lifecycle {

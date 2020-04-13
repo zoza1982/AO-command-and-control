@@ -12,3 +12,7 @@ variable "aws_region" {
 variable "server_base_name" {
   default = "sample"
 }
+
+variable "owner_name" {
+  default = "unknown"
+}
