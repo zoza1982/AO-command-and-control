@@ -30,7 +30,7 @@ root_block_device {
   }
 
  tags = {
-    Name     = "ao-${count.index +1 }"
+    Name     = "${var.server_base_name}-ao-${count.index +1 }"
     App = "AO"
     Role = "AO-cluster-node"
   }

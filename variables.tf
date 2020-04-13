@@ -9,3 +9,6 @@ variable "aws_region" {
   default = "us-west-2"
 }
 
+variable "server_base_name" {
+  default = "sample"
+}
